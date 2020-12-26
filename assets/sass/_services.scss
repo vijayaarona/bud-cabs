@@ -1,0 +1,149 @@
+.bc-services{
+	float:left;
+	width:100%;
+	padding:120px 0 70px;
+}
+.bc-services .bc-service-outer{
+	float:left;
+	width:100%;
+	margin:60px 0 0;
+}
+.bc-services .service-item{
+	float:left;
+	width:344px;
+	margin:0 0px 55px 0;
+}
+.bc-services .service-item img{
+	float:left;
+	margin-right:28px;
+}
+.bc-services .service-item .service-info-box{
+	overflow:hidden;
+	margin-left:28px;
+}
+.bc-service-outer .service-item .service-info-box h4{
+	font-family:'Montserrat',sans-serif;
+	font-size:22px;
+	line-height:22px;
+	color:#444444;
+	font-weight:500;
+	margin:0 0 15px;
+}
+.bc-service-outer .service-item .service-info-box p{
+	font-size:15px;
+	line-height:25px;
+	color:#777777;
+	font-weight:400;
+	margin:0;
+}
+.service-ad-box{
+	float:left;
+	border:1px solid #e7e7e7;
+	padding:4px 4px;
+	border-radius:4px;
+}
+.service-ad-box .fleet-box img{
+	width:auto;
+	height:auto;
+}
+.service-ad-box .fleet-box h4{
+	font-size:23px;
+}
+.service-ad-box .fleet-box .ad-info{
+	width:100%;
+	float:left;
+	text-align:center;
+}
+.fleet-box{
+	width:100%;
+	float:left;
+	position:relative;
+}
+.fleet-box  img{
+	width:100%;
+	height:auto;
+}
+.fleet-box .ad-info{
+	top:0;
+	left:0;
+	position:absolute;
+	padding:80px 20px;
+}
+.fleet-box .ad-info h4{
+	font-family:'Montserrat',sans-serif;
+	font-weight:600;
+	color:#fff;
+	font-size:22px;
+	text-transform:capitalize;
+}
+.fleet-box .ad-info .price{
+	font-family:'Montserrat',sans-serif;
+	font-weight:600;
+	color:#fff;
+	display:block;
+	font-size:50px;
+	text-align:center;
+}
+.fleet-box .ad-info h5{
+	font-family:'Montserrat',sans-serif;
+	font-weight:600;
+	color:#fff;
+	font-size:18px;
+}
+.fleet-box .ad-info .book_fleet a{
+	margin-top:30px;
+}
+.book_fleet a{
+	display:block;
+	color:#fff;
+	width:150px;
+	text-align:center;
+	padding:15px 0;
+	font-family:'Montserrat',sans-serif;
+	font-weight:500;
+	margin:15px auto 0;
+}
+.bc-promo-offer{
+	width:100%;
+	float:left;
+	// background:url("images/pattern-bg.jpg") no-repeat center center;
+	background-size:cover;
+	padding:80px 0;
+	position:relative;
+	z-index:999;
+}
+.bc-promo-offer:after{
+	content:'';
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+.bc-promo-offer .promo-box{
+	width:920px;
+	z-index:999;
+	position:relative;
+	margin:0 auto 0;
+}
+.bc-promo-offer h3{
+	text-align:center;
+	color:#fff;
+	font-family:'Montserrat',sans-serif;
+	font-size:36px;
+	line-height:50px;
+	margin:0;
+	font-weight:500;
+}
+.bc-promo-offer h3 span{
+	border-bottom:1px solid #fff;
+}
+.bc-promo-offer a{
+	display:block;
+	width:195px;
+	text-align:center;
+	color:#fff;
+	background-color:#374b5d;
+	padding:16px 0;
+	margin:25px auto 0;
+}

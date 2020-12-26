@@ -1,0 +1,133 @@
+.bc-footer{
+	background:#233545;
+	width:100%;
+	float:left;
+	padding:75px 0 50px;
+}
+.widget{
+	float:left;
+	width:100%;
+	margin-bottom:30px;
+}
+.widget h3{
+	margin:0 0 20px;
+	font-family:'Montserrat',sans-serif;
+	font-weight:600;
+	font-size:20px;
+	line-height:26px;
+	color:#fff;
+	text-transform:capitalize;
+}
+.about-widget p{
+	font-size:15px;
+	line-height:24px;
+	font-family:'Open Sans',sans-serif;
+	font-weight:400;
+	color:#7a8793;
+	margin-bottom:20px;
+}
+.about-widget .fsocial-links{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.about-widget .fsocial-links li{
+	display:inline-block;
+}
+.about-widget .fsocial-links li a{
+	display:block;
+	margin-right:9px;
+	color:#d1d1d1;
+	width:40px;
+	height:40px;
+	line-height:37px;
+	border: 1px solid #767676;
+	text-align:center;	
+}
+.about-widget .fsocial-links li a:hover{
+	color:#fff;
+}
+.links-widget .flinks-list{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.links-widget .flinks-list li{
+	color:#7a8793;
+}
+.links-widget .flinks-list li a{
+	display:inline-block;
+	color:#7a8793;
+	padding:5px 0 5px 15px;
+}
+.contact-info .contact-box{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.contact-info .contact-box li{
+	margin-bottom:20px;
+	color:#7a8793;
+}
+.contact-info .contact-box li i{
+	margin-right:10px;
+	width:20px;
+	height:22px;
+	float:left;
+	line-height:20px;
+}
+.contact-info .contact-box li a{
+	color:#7a8793;
+}
+
+.bc-tweets ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+	float:left;
+	width:100%;
+}
+.bc-tweets ul li {
+    display: block;
+    margin-bottom: 15px;
+    color: #7a8793;
+	font-size:15px;
+	line-height:23px;
+}
+.bc-tweets ul li i{
+	margin-right:13px;
+	float:left;
+	line-height:23px;
+}
+.bc-tweets ul li .tweet_text{
+	overflow:hidden;
+}
+.bc-tweets ul li .date {
+    margin-top: 10px;
+	font-style:italic;
+}
+.bc-copyright{
+	float:left;
+	width:100%;
+	background:#1f303f;
+	padding:20px 0;
+}
+.bc-copyright p{
+	color:#7a8793;
+	margin:0;
+	float:left;
+	line-height:26px;
+}
+.bc-copyright .payment-icons{
+	list-style:none;
+	margin:0;
+	padding:0;
+	float:right;
+}
+.bc-copyright .payment-icons li{
+	display:inline-block;
+	font-size: 25px;
+	line-height:30px;
+	padding-right: 14px;
+	color:#c1c1c1;
+}

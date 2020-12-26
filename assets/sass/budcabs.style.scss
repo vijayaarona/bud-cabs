@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Open+Sans:400,600,700|Yellowtail');
+@import 'header';
+@import 'color';
+@import 'slider';
+@import 'services';
+@import 'collection';
+@import 'cabstrip';
+@import 'footer';
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+body{
+	background:#fff;
+	margin:0;
+	padding:0;
+	font-family:'Open Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family:'Montserrat', sans-serif;
+}
+.wrapper{
+	width:100%;
+	float:left;
+	overflow:hidden;
+}
+
+/* ===================== Start Page Preloader ========================= */
+.loader-outer{
+	position:fixed;
+	left:0;
+	right:0;
+	background-color:#fff;
+	top:0;
+	bottom:0;
+	width:100%;
+	z-index:999999;
+}
+.loader-inner{
+    width: 128px;
+    height: 128px;
+    position: absolute;
+    left: 0;
+    top:0;
+    bottom: 0;
+    right: 0;
+    margin:auto;
+    padding: 20px 20px;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+.loader-inner h2{
+	font-family:'Montserrat',sans-serif;
+	font-size:30px;
+	font-weight:600;
+	color:#444;
+}
+/* ============================= End  Page Preloader =============================== */
